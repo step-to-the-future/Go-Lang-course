@@ -2,26 +2,20 @@ package logic
 
 import "fmt"
 
-func Cheest() {
-	var n int
-	fmt.Print("Please enter max numbers of elements in an array: ")
-	fmt.Scanln(&n)
-	var arr []int
-	var r int
-	fmt.Println("Please enter elements of an array: ")
-	for i := 0; i < n; i++ {
-		fmt.Printf("Please enter the %v number: ", i+1)
-		fmt.Scanln(&r)
-		arr = append(arr, r)
+func Findnumber(h map[string]string, names string) {
+	fmt.Print("Please enter the name: ")
+	fmt.Scanln(&names)
+	switch names {
+	case "Aziz":
+		fmt.Printf("\nThe phone-number is %v \n", h["Aziz"])
+	case "Jasur":
+		fmt.Printf("\nThe phone-number is %v \n", h["Jasur"])
+	case "Mukhammad":
+		fmt.Printf("\nThe phone-number is %v \n", h["Mukhammad"])
+	case "Rinat":
+		fmt.Printf("\nThe phone-number is %v \n", h["Rinat"])
+	default:
+		fmt.Println("\nName doesn't exist, try other name")
 	}
 
-	fmt.Println("\nThe array is:", arr)
-
-	var minVal int = arr[0]
-	for y := 1; y < n; y++ {
-		if minVal > arr[y] {
-			minVal = arr[y]
-		}
-	}
-	fmt.Println("\nThe min val in array is", minVal)
 }
