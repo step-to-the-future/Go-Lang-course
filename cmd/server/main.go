@@ -1,10 +1,15 @@
 package main
 
 import (
+	"fmt"
+
 	"github.com/step-to-the-future/Go-Lang-course/internal/logic"
 )
 
 func main() {
+
+	name := "Hello world!"
+	fmt.Println(name)
 
 	var names string
 
