@@ -10,7 +10,10 @@ func main() {
 
 	name := "something new!"
 	fmt.Println(name)
+	fmt.Println("I hope i will cure very soon from this thing")
+	somethin := "fibfsdf"
 
+	fmt.Println(somethin)
 	var names string
 
 	phonebook := map[string]string{
