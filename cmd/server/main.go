@@ -8,7 +8,7 @@ import (
 
 func main() {
 
-	name := "Hello world!"
+	name := "Added a new thing here!"
 	fmt.Println(name)
 
 	var names string
