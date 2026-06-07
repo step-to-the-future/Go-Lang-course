@@ -5,7 +5,9 @@ import (
 )
 
 func main() {
+
 	var names string
+
 	phonebook := map[string]string{
 		"Abdulaziz": "+(998) 95 007 - 05 - 15",
 		"Mukhammad": "+(998) 97 005 - 45 - 18",
