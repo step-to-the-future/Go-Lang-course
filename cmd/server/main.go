@@ -7,8 +7,8 @@ import (
 func main() {
 	var names string
 	phonebook := map[string]string{
-		"Aziz":      "+(998) 95 007 - 05 - 15",
-		"Mukhammad": "+(998) 97 005 - 45 - 94",
+		"Abdulaziz": "+(998) 95 007 - 05 - 15",
+		"Mukhammad": "+(998) 97 005 - 45 - 18",
 		"Jasur":     "+(998) 93 507 - 08 - 88",
 		"Rinat":     "+(998) 93 105 - 67 - 63",
 	}
